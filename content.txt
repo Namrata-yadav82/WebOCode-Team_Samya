@@ -70,7 +70,7 @@ YOGYAKARTA PRINCIPLES:
 The Yogyakarta Principles were signed by 29 international human rights experts, after a draft process and workshop organized by the International Commission of Jurists and the International Service for Human Rights. Principles 17 and 18 address the Right to the Highest attainable standard of health and protection from medical abuses. 
 Principle 17 of the Yogyakarta Principles states: 
 “Everyone has the right to the highest attainable standard of physical and mental health, without discrimination on the basis of sexual orientation or gender identity. Sexual and reproductive health is a fundamental aspect of this right.” 
-This Principle details nine aspects of state obligations related to this right, 
+This Principle details seven aspects of state obligations related to this right as mentioned below:
 1. The duty to take legislative and other measures to ensure the right to health and access to healthcare.
 2. The treatment of medical records with confidentiality.
 3. The design and development of healthcare resources and programs to improve the health status of LGBTI people and address discrimination and prejudice.
@@ -81,12 +81,13 @@ This Principle details nine aspects of state obligations related to this right,
  
 Principle 18, which addresses the need for LGBTI persons to be protected from medical abuses, states:
 “No person may be forced to undergo any form of medical or psychological treatment, procedure, testing, or be confined to a medical facility, based on sexual orientation or gender identity. Notwithstanding any classifications to the contrary, a person’s sexual orientation and gender identity are not, in and of themselves, medical conditions and are not to be treated, cured, or suppressed.” 
-Five obligations for states of Principle 18 
+Four obligations for states of Principle 18 are as follow:
 1. Taking the necessary legislative and other measures to ensure protection against harmful medical practices, including the irreversible alteration of a child’s body through attempts to impose a gender identity.
 2. Establishing child protection mechanisms to reduce the risk of medical abuse. 
 3. Ensuring LGBTI people are not used to unethically or involuntarily test medical procedures or conduct research, and reversing funding programs that would enable such abuses and 
-           4. Ensuring medical and psychological treatment does not treat sexual orientation and gender identity as a pathology.
- 
+4. Ensuring medical and psychological treatment does not treat sexual orientation and gender identity as a pathology.
+ These provisions in the Yogyakarta Principles provide guidance on how international human rights law can be applied in the specific context of respecting, 
+ protecting and promoting the right to health for LGBTI persons. 
  Health Challenges 
 They can’t talk to your doctor about who you have sex with, you won’t get the information you need. 
 Providers don’t necessarily know the sexual orientation of their patients. This can prevent them from asking certain questions, probing for certain risk behaviors, or looking for indications of a particular illness – which does a disservice to their patients.

@@ -2,9 +2,10 @@ Web-o-Code -- Team_Samya Project
 
 How to run the website locally?
 To run our website on the local machine please follow the following steps
-                      Install the VScode and Live Server in your system.
-                      Clone our Github repository (Link is provided)
-                      Run the code on the Live Server.
+                      1) Install the VScode and Live Server in your system.
+                      2) Clone our Github repository (Link is provided)
+                      3) Now right click , and there you will see OPEN WITH LIVE SERVER 
+                      4)clik on it and Run the code.
  
  
 Reference which you may have used?

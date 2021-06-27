@@ -1,4 +1,6 @@
 Web-o-Code -- Team_Samya Project
+netlify website link -- https://epic-dijkstra-f4d707.netlify.app
+
 
 How to run the website locally?
 To run our website on the local machine please follow the following steps

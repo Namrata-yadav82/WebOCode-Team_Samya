@@ -1,0 +1,198 @@
+@media all and (min-width:1000px) and (max-width:1330px) {
+    .content{
+        margin: 150px auto 0 auto;
+    } 
+    .buttonss{
+        margin: 50px 0 170px 0;
+    }
+    #bottom_container{
+        min-height: 75vh;
+    }
+    .box{
+        width: 250px;
+        height: 350px;
+        margin: 20px 25px ;
+    }
+    .contents img{
+        height: 230px;
+        width: auto;
+        border-radius: 50%;
+        margin: 4px 0 6px 0;
+    }
+}
+@media all and (min-width: 720px) and (max-width:999px) {
+    .content{
+        margin: 150px auto 0 auto;
+    } 
+    .content h2{
+        font-size: 3rem;
+        letter-spacing: 4px;
+        word-spacing: 2px;
+        margin-bottom: 30px;
+    }
+    .buttonss{
+        margin: 50px 0 170px 0;
+    }
+    #bottom_container{
+        min-height: 70vh;
+    }
+    .box{
+        width: 210px;
+        height: 315px;
+        margin: 20px 25px ;
+    }
+    .contents img{
+        height: 165px;
+        width: auto;
+        border-radius: 50%;
+        margin: 3px 0 5px 0;
+    }
+    .content h3{
+        font-size: 1rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 28px;
+    }
+    .content h3 .quote{
+        font-size: 1.07rem;
+        margin: 10px 0 4px 0;
+        letter-spacing: 2px;
+    }
+    .content h3 .quote_name{
+        font-size: 1.1rem;
+        margin-top: 4px;
+        letter-spacing: 2px;
+    }
+    .container{
+        height: 90vh;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 719px) {
+    .container{
+        height: 70vh;
+    }
+    .content{
+        margin: 180px auto 0 auto;
+    } 
+    .content h2{
+        font-size: 2rem;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        margin-bottom: 22px;
+    }
+    .content h3{
+        margin: 0 15px;
+    }
+    .buttonss{
+        margin: 35px 0 140px 0;
+    }
+    .buttonss .btn{
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        margin: 0 25px;
+    }
+    #bottom_container{
+        min-height: 60vh;
+    }
+    .box{
+        width: 200px;
+        height: 300px;
+        margin: 18px 22px ;
+    }
+    .contents img{
+        height: 140px;
+        width: auto;
+        border-radius: 50%;
+        margin: 3px 0 5px 0;
+    }
+    .content h3{
+        font-size: 0.96rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 23px;
+    }
+    .content h3 .quote{
+        font-size: 1.03rem;
+        margin: 8px 0 4px 0;
+        letter-spacing: 2px;
+    }
+    .content h3 .quote_name{
+        font-size: 1.04rem;
+        margin-top: 4px;
+        letter-spacing: 2px;
+    }
+}
+@media all and (max-width: 479px){
+    .container{
+        height: 70vh;
+    }
+    .content{
+        margin: 180px auto 0 auto;
+    } 
+    .content h2{
+        margin-left: 14px;
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+        margin-bottom: 17px;
+    }
+    .content h3{
+        margin: 0 14px;
+    }
+    .buttonss{
+        margin: 10px 0 180px 0;
+    }
+    .buttonss .btn{
+        border-radius: 15px;
+        padding: 4px 10px;
+        font-size: 1.02rem;
+        letter-spacing: 1.5px;
+        margin: 0 10px;
+    }
+    #bottom_container{
+        min-height: 55vh;
+    }
+    .box{
+        width: 200px;
+        height: 280px;
+        margin: 15px 20px ;
+    }
+    .contents img{
+        height: 120px;
+        width: auto;
+        border-radius: 50%;
+        margin: 3px 0 4px 0;
+    }
+    .content h3{
+        font-size: 0.95rem;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .content h3 .quote{
+        font-size: 1.02rem;
+        margin: 6px 0 3px 0;
+        letter-spacing: 1.5px;
+    }
+    .content h3 .quote_name{
+        font-size: 1.025rem;
+        margin-top: 4px;
+        letter-spacing: 1.6px;
+    }
+    .samya h1{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .samya .symbol{
+        height: 30px;
+    }
+    .sidebar .socialmedia_links img{
+        width: 23px;
+        margin: 0 10px;
+    }
+    .mainheading{
+        padding: 20px 0;
+    }
+}
+

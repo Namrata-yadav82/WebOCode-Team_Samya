@@ -81,11 +81,14 @@ section .content a{
     background: #df7ddd;
     font-size: 1.3rem;
     border-radius: 25px;
-    margin: 15px 0;
+    margin: 15px 10px;
     font-weight: 800;
     padding: 10px 20px ;
     display: inline-block;
     text-decoration: none;
+}
+section .content a:hover{
+    background: rgb(248, 95, 95);
 }
 .menuToggle{
     position: fixed;
@@ -101,13 +104,13 @@ section .content a{
     z-index: 100;
 }
 .menuToggle.active{
-    background: #df7ddd url(/images/info.png);
+    background: #df7ddd url(/images/close.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px;
 }
 .navigation{
-    background: #fff;
+    background: rgb(247, 240, 246);
     position: fixed;
     top: 0;
     left: calc(100% - 50px);
@@ -129,15 +132,25 @@ section .content a{
     position: relative;
     list-style-type: none;
     text-align: center;
+    padding: 0px 10px;
 }
-.navigation ul li a{
-    font-size: 1.35rem;
-    color: #111;
+.navigation .nav_name li{
+    background: plum;
+    border-radius: 7px;
+    margin: 7px 0;
+    display: block;
+}
+.navigation .nav_name a{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: rgb(41, 39, 39);
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
+    display: block;
+    margin: 20px 0;
 }
 .navigation ul li a:hover{
-    color: #df7ddd;
+    color: #f3e5ef;
 }
 .socialbar{
     position: absolute;
@@ -166,12 +179,14 @@ section .content a{
     position: relative;
     display: inline-block;
 }
-.socialbar .email{
+.socialbar .share{
     position: absolute;
     bottom: 15px;
     transform: scale(0.6);
 }
-.two{
+
+
+#two{
     position: relative;
     width: 100%;
     min-height: 77vh;
@@ -179,7 +194,17 @@ section .content a{
     display: flex;
     align-items: center;
 }
-.two .circle{
+.circles img{
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    margin: 0 0 0 20px;
+    height: 500px;
+    clip-path: circle(); 
+}
+#two .circle{
+    position: relative;
     position: absolute;
     top: -23px;
     right: 0px;
@@ -198,13 +223,13 @@ section .content a{
     height: 350px;
     clip-path: circle();
 }
-.conte{
+#conte{
     position: absolute;
     top: 6.5%;
     right: 0%;
     width: 66%;
 }
-.conte .textbox{
+#conte .textbox{
     font-size: 1.1rem;
     height: auto;
     max-width: 1100px;
@@ -400,8 +425,8 @@ section .content a{
     color: transparent;
     text-transform: uppercase;
     width: 60%;
-    -webkit-text-stroke: 2.5px #456c4d;
-    text-shadow: 3px 4px 2px rgb(141, 216, 156);
+    -webkit-text-stroke: 2.5px #58398e;
+    text-shadow: 3px 4px 2px rgb(151, 163, 230);
     background: linear-gradient(to right,rgb(243, 181, 245),rgb(199, 247, 199));
 }
 .principle17 .box_17 .icon{
@@ -419,11 +444,11 @@ section .content a{
     font-weight: 700;
     transition: 1s;    
 }
-.principle17 .box_17:nth-child(1) .icon, .principle17 .box_17:nth-child(5) .icon{
+.principle17 .box_17:nth-child(1) .icon, .principle17 .box_17:nth-child(7) .icon{
     box-shadow: 0 0 0 0 #e91e63;
     background: #e91e63;
 }
-.principle17 .box_17:nth-child(1):hover .icon, .principle17 .box_17:nth-child(5):hover .icon{
+.principle17 .box_17:nth-child(1):hover .icon, .principle17 .box_17:nth-child(7):hover .icon{
     box-shadow: 0 0 0 400px #e91e63;
 }
 .principle17 .box_17:nth-child(2) .icon, .principle17 .box_17:nth-child(6) .icon{
@@ -433,11 +458,11 @@ section .content a{
 .principle17 .box_17:nth-child(2):hover .icon, .principle17 .box_17:nth-child(6):hover .icon{
     box-shadow: 0 0 0 400px #23e629;
 }
-.principle17 .box_17:nth-child(3) .icon, .principle17 .box_17:nth-child(7) .icon{
+.principle17 .box_17:nth-child(3) .icon, .principle17 .box_17:nth-child(5) .icon{
     box-shadow: 0 0 0 0 #2196f3;
     background: #2196f3;
 }
-.principle17 .box_17:nth-child(3):hover .icon, .principle17 .box_17:nth-child(7):hover .icon{
+.principle17 .box_17:nth-child(3):hover .icon, .principle17 .box_17:nth-child(5):hover .icon{
     box-shadow: 0 0 0 400px #2196f3;
 }
 .principle17 .box_17:nth-child(4) .icon{
@@ -464,19 +489,21 @@ section .content a{
 }
 
 
-
+.principle18_box{
+    margin: 80px 0 50px 0;
+}
 .principle18_box h1{
     font-size: 2.4rem;
     letter-spacing: 2px;
     word-spacing: 7px;
-    margin: 40px auto 40px auto;
+    margin: 20px auto 30px auto;
     padding: 3px 6px;
     border-radius: 20px;
     text-align: center;
     color: transparent;
     text-transform: uppercase;
     width: 60%;
-    -webkit-text-stroke: 2.5px #456c4d;
+    -webkit-text-stroke: 2.5px #2f4c35;
     text-shadow: 3px 4px 2px rgb(141, 216, 156);
     background: linear-gradient(to right,rgb(243, 172, 193),rgb(235, 139, 75));
 }
@@ -505,7 +532,7 @@ section .content a{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #74dfc2;
+    background: #42cba6;
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 0.5s;
@@ -544,27 +571,26 @@ section .content a{
 }
 
 
-
 .challenges_box{
     width: 100%;
-    height: 160vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eee;
+    background-color: rgb(69, 67, 67);
     padding: 16px 74px 16px 24px  ;
 }
 .challenges{
     width: 100%;
     max-width: 80rem;
     padding: 2rem ;
-    background-color: rgb(198, 165, 233);
+    /* background-color: rgb(198, 165, 233); */
+    background-color: rgb(155, 152, 152);
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     border-radius: 0.8rem;
 }
-
 .challengesimg{
     min-width: 25rem;
     max-width: 25rem;
@@ -593,7 +619,7 @@ section .content a{
 }
 .challenges_title{
     font-size: 3rem;
-    margin: 1rem auto 2.3rem auto;
+    margin: 0.8rem auto 2.5rem auto;
     text-transform: uppercase;
     -webkit-text-stroke: 2px #3a31a0;
     text-shadow: 3px 4px 14px #944f6c;
@@ -602,25 +628,30 @@ section .content a{
 }
 .challenges_text{
     margin-bottom: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.03rem;
     color: rgba(0,0,0,0.7);
+    font-weight: 600;
 }
 .challenges_text div{
     margin-bottom: 20px;
 }
-.challenges_text div h2{
+.challenges_subheading{
+    margin: 10px 0 3px 0;
+    font-weight: 900;
     font-size: 1.6rem;
+    text-transform: uppercase;
 }
 
 .wave{
     position: relative;
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 50px;
-    background: linear-gradient(180deg,#96c6f0, #c96793);
-    background-blend-mode: screen;
+    background: wheat;
+    /* background: url(/images/healthback.jpeg)  no-repeat center center/cover; */
 }
 .wave .stats_content{
     display: grid;
@@ -632,143 +663,69 @@ section .content a{
 .wave .stats_content .stat1{
     border: 3px solid rgb(29, 26, 26);
     padding: 10px;
-    border-radius: 7px;
+    border-radius: 10px;
     z-index: 100;
 }
 .wave .wave_content h1{
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: #fff;
     display: block;
     width: 30%;
     margin: 10px auto 60px auto;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    word-spacing: 10px;
-    -webkit-text-stroke: 2px #ffe7d5;
-    text-shadow: 3px 4px 14px #25121a;
+    letter-spacing: 5px;
+    word-spacing: 12px;
+    -webkit-text-stroke: 3px #a45b24;
+    text-shadow: 4px 4.5px 1.5px #393934;
 }
 .stat1 .number{
     font-size: 2rem;
     text-align: center;
     background: #fff;
     width: 40%;
-    border-radius: 20px;
+    border-radius: 25px;
     margin: 10px auto 20px auto;
     padding: 2px 8px;
-    border: 1px solid black;
-    background: rgb(250, 213, 187);
+    border: 2px solid black;
+    background: rgb(231, 169, 183);
+    -webkit-text-stroke: 1px #a45b24;
+    text-shadow: 1px 1px 1.5px #393934;
 }
 .wave .wave_content p{
-    font-size: 1.02rem;
+    font-size: 1.03rem;
+    font-weight: 600;
     padding: 0 5px;
+    color:#4e311b;
 }
 .wave_wavy{
     position: absolute;
-    bottom: 6%;
-    left: 0;
-}
-
-
-.box{
-    position: relative;
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-}
-.box .content1{
-    display: flex;
-}
-.big_container{
-    position: relative;
-}
-.container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.container .card .icon{
-    margin-bottom: 10px;
-} 
-.container .icon img{
-    height: 130px;
-    object-fit: contain;
-}
-.container .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 300px;
-    padding: 20px;
-    margin: 20px;
-    background: #3f3f3f;
-}
-.container .card .more{
-    position: relative;
-    padding: 10px 15px;
-    background: #17e78c;
-    margin-top: 15px;
-    display: inline-block;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #383838;
-    font-weight: 500;
-    letter-spacing: 2px;
-    font-size: 15px;
-    border-radius: 25px;
-}
-.container .card.active .more{
-    background: #ff3b7e;
-    color: #fff;
-}
-.container .card .more::before{
-    content: "Read More";
-}
-.container .card.active .more::before{
-    content: "Read Less";
-}
-.container .card .writeup{
-    position: relative;
-    height: 215px;
-    overflow: hidden;
-}
-.container .card .writeup::before{
-    content: " ";
-    position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(transparent, #3f3f3f);
-}
-.container .card .writeup h3{
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.container .card .writeup p{
-    color: #ccc;
-    font-size: 1rem;
-    font-weight: 400;
-}
-.container .card::before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 20px solid transparent;
-    border-top: 20px solid #17e78c;
-    border-right: 20px solid #17e78c;
 }
 
+
+.footer_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 40px;
+    background: linear-gradient(70deg,rgb(99, 97, 97),rgb(112, 112, 147),rgb(99, 97, 97));
+}
+.footer_container h4{
+    color: black;
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-bottom: 4px;
+}
+.quicklinks ul li, .social ul li{
+    list-style: none;
+}
+.footer_container {
+    color: #fff;
+}
 
 @keyframes animatebox{
     0%{

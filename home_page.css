@@ -726,6 +726,13 @@ section .content a:hover{
 .quicklinks ul li, .social ul li{
     list-style: none;
 }
+.quicklinks ul li a, .social ul li a{
+    color: white;
+    text-decoration: none;
+}
+.quicklinks ul li a:hover, .social ul li a:hover{
+    color: rgb(248, 54, 54);
+}
 .footer_container {
     color: #fff;
 }

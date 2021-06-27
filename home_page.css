@@ -242,7 +242,10 @@ section .content a:hover{
     max-width: 800px;
     margin-bottom: 25px;
 }
-.para2{
+.textbox .para2{
+    max-width: 800px;
+}
+.para3{
     font-size: 1.1rem;
     margin: 0 55px 0 20px; 
     max-width: 1400px;
